@@ -8,12 +8,7 @@ namespace Algorithms
 {
     public static class BinarySearch
     {
-        /// <summary>
-        /// Performs binary search on a sorted array.
-        /// </summary>
-        /// <param name="array">Sorted integer array</param>
-        /// <param name="target">Value to search for</param>
-        /// <returns>Index of target if found; otherwise, -1</returns>
+        
         public static int Search(int[] array, int target)
         {
             int left = 0;
